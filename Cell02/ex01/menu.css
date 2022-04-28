@@ -1,0 +1,26 @@
+
+body, html {
+	background-image: url(https://www.sncf.com/sites/default/files/styles/crop_image_twitter/public/2021-08/cover-sncf-1920x800%5B4%5D.png);
+	background-attachment: scroll local;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#SandwichSNCF {
+	color: tomato;
+	font-size: 30px;
+	font-style: bold;
+}
+select {
+	background-color:  White;
+	color: tomato;
+  	font-size: 20px;
+}
+optgroup {
+	background-color: tomato;
+  	color: white;
+	font-size: 20px;
+}
+option {	
+  	background-color: rgb(245, 143, 125);
+  	color: white;
+}
