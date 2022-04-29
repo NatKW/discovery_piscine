@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Moving_Background</title>
+	<link href="background.css" rel="stylesheet">
+	<script>
+		function getRandomColor() { 
+  			return (Math.floor(Math.random() * (255 - 10)) + 10);
+		}
+		function getColor() {
+  			return `rgb(${getRandomColor()}, ${getRandomColor()}, ${getRandomColor()})`;
+		}		
+		function changeColor() { 
+			document.body.style.background = getColor();
+		}
+	</script>
+	</head>
+  	<body>
+      <button onclick= changeColor() class="bn">Click me!</button>
+  	</body>
+</html>
